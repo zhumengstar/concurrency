@@ -4,3 +4,7 @@
 /concurrency.iml
 /mvnw
 /mvnw.cmd
+/target/
+src/main/resources/static/
+src/main/resources/templates/
+target/
