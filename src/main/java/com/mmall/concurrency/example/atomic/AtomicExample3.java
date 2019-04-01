@@ -12,7 +12,9 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * @author:zhumeng
- * @desc:
+ * @desc: LongAdder
+ * Atomic单点更新数据，分散到多点上
+ * 统计并发更新，会有误差
  **/
 @Slf4j
 @ThreadSafe

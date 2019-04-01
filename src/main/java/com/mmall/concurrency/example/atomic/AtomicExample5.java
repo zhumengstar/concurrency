@@ -14,8 +14,10 @@ import java.util.concurrent.atomic.AtomicReference;
 @Slf4j
 @ThreadSafe
 public class AtomicExample5 {
+    //用得少
     private static AtomicIntegerFieldUpdater<AtomicExample5> updater =
             AtomicIntegerFieldUpdater.newUpdater(AtomicExample5.class, "count");
+    //filedName必须是volatile且非static字段
     @Getter
     private volatile int count = 100;
 

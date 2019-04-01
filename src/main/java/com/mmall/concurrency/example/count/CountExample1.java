@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * @author:zhumeng
- * @desc:
+ * @desc: 不安全
  **/
 @Slf4j
 @NotThreadSafe
