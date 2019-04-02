@@ -15,6 +15,7 @@ public class UnsafePublish {
     }
 
     public static void main(String[] args) {
+        //不安全发布对象
         UnsafePublish unsafePublish=new UnsafePublish();
         log.info("{}",Arrays.toString(unsafePublish.getStates()));
         unsafePublish.getStates()[0]="d";

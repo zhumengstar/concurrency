@@ -8,6 +8,8 @@ import com.mmall.concurrency.annoations.NotThreadSafe;
  */
 @NotThreadSafe
 public class SingletonExample1 {
+
+    private static final Integer a=0;
     //私有构造函数
     private SingletonExample1(){}
 

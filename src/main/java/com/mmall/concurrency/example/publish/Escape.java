@@ -11,6 +11,7 @@ public class Escape {
     private int thisCanBeEscape=0;
 
     public Escape(){
+        //对象逃逸
         new InnerClass();
     }
     private class InnerClass{
