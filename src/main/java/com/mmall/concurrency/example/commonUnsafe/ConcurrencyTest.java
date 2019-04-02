@@ -1,4 +1,4 @@
-package com.mmall.concurrency.example;
+package com.mmall.concurrency.example.commonUnsafe;
 
 import com.mmall.concurrency.annoations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
